@@ -30,8 +30,8 @@ public class TreasureManager
     public static void ArmorQuestion(Armor item)
     {
         Typing.WriteSlow($"You get {item.Name}.Level: {item.Level},AC: {item.Ac}.");
-        Typing.WriteSlow($"Do you want to equip {item.Name}(your previous" +
-                         $" equipment will be deleted), or add to inventory? ");
+        Typing.WriteSlow($"Do you want to equip {item.Name}" +
+                         $" , or add to inventory? ");
         Typing.WriteSlow($"Your old armor is {Player.GetInstance().Armor.Name}.");
         Typing.WriteSlow($"Your old armor's AC is {Player.GetInstance().Armor.Ac}");
         Typing.WriteSlow("Type equip, throw or inv:");
@@ -45,6 +45,8 @@ public class TreasureManager
         switch (answer)
         {
             case "equip":
+                Typing.WriteSlow("You hide your old armor to inventory and equipped new.");
+                Inventory.AddToInventory(Player.GetInstance().Armor);
                 Player.GetInstance().Armor = item;
                 Player.GetInstance().Ac = item.Ac + Player.GetInstance().Race.Ac;
                 break;
@@ -60,8 +62,8 @@ public class TreasureManager
         Typing.WriteSlow($"You get {item.Name}.Level: {item.Level}," +
                          $" AttackBonus:{item.AttackBonus}," +
                          $"Damage: {item.Damage![0]}d{item.Damage![1]}+{item.Damage![2]}");
-        Typing.WriteSlow($"Do you want to equip {item.Name}(your previous" +
-                         $" equipment will be deleted), or add to inventory? ");
+        Typing.WriteSlow($"Do you want to equip {item.Name}" +
+                         $", or add to inventory? ");
         Typing.WriteSlow($"Your old weapon is {Player.GetInstance().Weapon.Name}.");
         Typing.WriteSlow($"Attack bonus of old weapon: {Player.GetInstance().Weapon.AttackBonus}," +
                          $"Damage:{Player.GetInstance().Damage![0]}d{Player.GetInstance().Damage![1]}" +
@@ -78,8 +80,10 @@ public class TreasureManager
         switch (answer)
         {
             case "equip":
+                Typing.WriteSlow("You hide your old weapon to inventory and equipped new.");
+                Inventory.AddToInventory(Player.GetInstance().Weapon);
                 Player.GetInstance().Weapon = item;
-                Player.GetInstance().Ac = item.AttackBonus + Player.GetInstance().Race.AttackBonus;
+                Player.GetInstance().AttackBonus = item.AttackBonus + Player.GetInstance().Race.AttackBonus;
                 Player.GetInstance().Damage = item.Damage;
                 break;
             case "inv":
