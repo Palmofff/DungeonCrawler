@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "human",
+    "AttackBonus": 1,
+    "Ac": 1
+  },
+  {
+    "Name": "dwarf",
+    "AttackBonus": 0,
+    "Ac": 2
+  },
+  {
+    "Name": "orc",
+    "AttackBonus": 2,
+    "Ac": 0
+  },
+  {
+    "Name": "elf",
+    "AttackBonus": 3,
+    "Ac": -1
+  }
+]

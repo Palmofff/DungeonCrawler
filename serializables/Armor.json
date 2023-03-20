@@ -1,0 +1,27 @@
+[
+  {
+    "Name":"leather armor", 
+    "Level" : 1,
+    "Ac" : 12
+  },
+  {
+    "Name":"iron armor",
+    "Level" : 3,
+    "Ac" : 14
+  },
+  {
+    "Name": "adamantine armor",
+    "Level": 5,
+    "Ac": 16
+  },
+  {
+    "Name": "dragon armor",
+    "Level": 7,
+    "Ac": 18
+  },
+  {
+    "Name": "demonic armor",
+    "Level": 9,
+    "Ac": 20
+  }
+]

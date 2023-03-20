@@ -1,0 +1,74 @@
+﻿[
+  {
+    "Name": "battleaxe",
+    "Level": 1,
+    "AttackBonus": 1,
+    "Damage": [1, 8, 2]
+  },
+  {
+    "Name": "scimitar",
+    "Level": 1,
+    "AttackBonus": 3,
+    "Damage": [1, 6, 1]
+  },
+  {
+    "Name": "sickle",
+    "Level": 1,
+    "AttackBonus": 5,
+    "Damage": [1, 4, 1]
+  },
+  {
+    "Name": "shortsword",
+    "Level": 3,
+    "AttackBonus": 3,
+    "Damage": [1, 6, 2]
+  },
+  {
+    "Name": "maul",
+    "Level": 3,
+    "AttackBonus": 0,
+    "Damage": [2, 6, 1]
+  },
+  {
+    "Name": "warpick",
+    "Level": 3,
+    "AttackBonus": 2,
+    "Damage": [1, 8, 0]
+  },
+  {
+    "Name": "lance",
+    "Level": 5,
+    "AttackBonus": 2,
+    "Damage": [1, 12, 2]
+  },
+  {
+    "Name": "rapier",
+    "Level": 5,
+    "AttackBonus": 4,
+    "Damage": [1, 8, 2]
+  },
+  {
+    "Name": "longsword",
+    "Level": 7,
+    "AttackBonus": 5,
+    "Damage": [1, 8, 3]
+  },
+  {
+    "Name": "greatsword",
+    "Level": 7,
+    "AttackBonus": 2,
+    "Damage": [2, 8, 3]
+  },
+  {
+    "Name": "halebard",
+    "Level": 9,
+    "AttackBonus": 5,
+    "Damage": [1, 10, 5]
+  },
+  {
+    "Name": "greataxe",
+    "Level": 9,
+    "AttackBonus": 3,
+    "Damage": [1, 12, 5]
+  }
+]

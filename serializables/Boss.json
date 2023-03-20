@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Name": "mirror demon",
+    "Level": 5,
+    "Hp": 1,
+    "MaxHp": 1,
+    "AttackBonus": 1,
+    "Ac": 1,
+    "Damage": [1,1,1],
+    "Experience": 0
+  },
+  {
+    "Name": "ancient dragon",
+    "Level": 10,
+    "Hp": 1.5,
+    "MaxHp": 1.5,
+    "AttackBonus": 2,
+    "Ac": 1.2,
+    "Damage": [1,10,2],
+    "Experience": 0
+  }
+]

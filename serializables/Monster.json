@@ -1,0 +1,52 @@
+﻿[
+  {
+    "Name": "goblin",
+    "Level": 1,
+    "Hp": 0.75,
+    "MaxHp": 0.75,
+    "AttackBonus": 0.3,
+    "Ac": 0.75,
+    "Damage": [1,2,1],
+    "Experience": 200
+  },
+  {
+    "Name": "skeleton",
+    "Level": 3,
+    "Hp": 0.8,
+    "MaxHp": 0.8,
+    "AttackBonus": 0.35,
+    "Ac": 0.8,
+    "Damage": [1,3,1],
+    "Experience": 300
+  },
+  {
+    "Name": "orc bandit",
+    "Level": 5,
+    "Hp": 0.9,
+    "MaxHp": 0.9,
+    "AttackBonus": 0.35,
+    "Ac": 0.9,
+    "Damage": [1,5,0],
+    "Experience": 500
+  },
+  {
+    "Name": "wyvern",
+    "Level": 7,
+    "Hp": 0.9,
+    "MaxHp": 0.9,
+    "AttackBonus": 0.4,
+    "Ac": 0.9,
+    "Damage": [2,3,1],
+    "Experience": 600
+  },
+  {
+    "Name": "void demon",
+    "Level": 9,
+    "Hp": 1,
+    "MaxHp": 1,
+    "AttackBonus": 0.5,
+    "Ac": 1,
+    "Damage": [2,4,1],
+    "Experience": 700
+  }
+]
