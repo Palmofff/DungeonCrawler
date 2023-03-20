@@ -16,13 +16,4 @@ Condition.GameStarting();
 while (Condition.Game.Progress)
 {
     Chain.Chained(death);
-}
-
-
-
-
-    
-
-
-    
-    
+}   

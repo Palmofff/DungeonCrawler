@@ -78,8 +78,7 @@ public abstract class Fight
             Typing.WriteSlow($"{boss.Name}'s magic attack missed.");
         }
     }
-
-
+    
     private static int RollDamage(int diceCount, int diceValue, int damageBonus)
     {
         Random random = new Random();
@@ -115,17 +114,13 @@ public abstract class Fight
                     Typing.WriteSlow("Your HP is full, no need to use potion.");
                     break;
             }
-            
-            
-                
         }
         else
         {
             Typing.WriteSlow("You have no potions!");
         }
     }
-
-
+    
     public static void Combat(Monster monster)
     {
         Typing.WriteSlow($"Your opponent is {monster.Name}, level: {monster.Level}");
